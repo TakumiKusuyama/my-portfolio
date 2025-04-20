@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chartBlock {
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem;
+}
+
+.chartTitle {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.skillTitle {
+    text-align: center;
+}
