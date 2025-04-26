@@ -14,7 +14,7 @@ const AboutFeature = () => {
                     <Col md={6}>
                         <Card>
                             <Card.Body>
-                                <Card.Text>東京都在住のシステムエンジニア。</Card.Text>
+                                <Card.Text>東京都在住のシステムエンジニア</Card.Text>
                                 <Card.Text>大学で情報工学を学んだのち、外資系ITコンサルティング企業でECサイトの開発に従事。本業の傍ら、個人でサイトやアプリの開発に取り組んでいる。</Card.Text>
                                 <Card.Text>インフラからフロントエンド/バックエンド、プロジェクトリーダーまで、幅広く経験してきた。</Card.Text>
                                 <Card.Text>趣味は、ウィンタースポーツ。スキーとスノーボード絞ることができず、どちらも嗜んでいる。</Card.Text>
