@@ -7,7 +7,7 @@ const works: WorkItem[] = [
         title: "My Winter Portfolio",
         image: "work-myportfolio.jpg",
         description: "ポートフォリオサイト",
-        url: "http://localhost:5173/"
+        url: "https://my-winter-portfolio.vercel.app/"
     },
     {
         title: "Travel Compass",
