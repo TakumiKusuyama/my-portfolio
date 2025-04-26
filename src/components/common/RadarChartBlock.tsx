@@ -7,9 +7,9 @@ import {
     PolarRadiusAxis,
     ResponsiveContainer,
 } from "recharts";
-import { SkillData } from "../../../types";
+import { SkillData } from "../../types";
 import CustomAngleTick from "./CustomAngleTick";
-import styles from "../../../style/skill.module.css";
+import styles from "../../style/skill.module.css";
 
 type RadarProps = {
     title: string;

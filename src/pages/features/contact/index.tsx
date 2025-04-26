@@ -8,7 +8,7 @@ type Props = {
     onSubmit: (e: React.FormEvent) => void;
 };
 
-const ContactOrganism = ({ name, email, message, onChange, onSubmit }: Props) => {
+const ContactFeature = ({ name, email, message, onChange, onSubmit }: Props) => {
     return (
         <section id="contact" className="py-3">
             <Container>
@@ -57,4 +57,4 @@ const ContactOrganism = ({ name, email, message, onChange, onSubmit }: Props) =>
     );
 };
 
-export default ContactOrganism;
+export default ContactFeature;

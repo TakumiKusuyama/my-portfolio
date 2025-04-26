@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import ContactOrganism from '../../../components/organisms/contact';
+import ContactFeature from '.';
 
 const ContactPage = () => {
     const [formData, setFormData] = useState({
@@ -38,7 +38,7 @@ const ContactPage = () => {
 
     return (
         <>
-            <ContactOrganism
+            <ContactFeature
                 name={formData.name}
                 email={formData.email}
                 message={formData.message}

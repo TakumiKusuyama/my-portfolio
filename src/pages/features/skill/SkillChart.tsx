@@ -1,5 +1,5 @@
 import React from "react";
-import RadarChartBlock from "./RadarChartBlock";
+import RadarChartBlock from "../../../components/common/RadarChartBlock";
 import { SkillData } from "../../../types";
 import styles from "../../../style/skill.module.css";
 
@@ -30,14 +30,15 @@ const devOpsData: SkillData[] = [
     { subject: "Jenkins", value: 2 },
 ];
 
-const SkillOrganism: React.FC = () => {
+const SkillChart: React.FC = () => {
     return (
         <div className={styles.container}>
             <RadarChartBlock title="Front-And-Design" color="#f78ca2" data={frontAndDesignData} />
-            <RadarChartBlock title="Back-end" color="#80cbc4" data={backEndData} />
+            <RadarChartBlock title="Back-End" color="#80cbc4" data={backEndData} />
             <RadarChartBlock title="DevOps" color="#ffd180" data={devOpsData} />
         </div>
     );
 };
 
-export default SkillOrganism;
+
+export default SkillChart;
