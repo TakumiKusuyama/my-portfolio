@@ -1,7 +1,6 @@
 import React from "react";
 import SkillOrganism from "./SkillChart";
 import SkillLevel from "./SkillLevel";
-import styles from "../../../style/ski.module.css";
 
 const SkillFeature: React.FC = () => {
     return (

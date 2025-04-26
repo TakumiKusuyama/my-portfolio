@@ -1,4 +1,5 @@
 import { LevelBlockProps } from "../../../types";
+import "../../../style/common.css";
 
 const LevelDescription: React.FC<LevelBlockProps> = ({ title, levels }) => {
     return (

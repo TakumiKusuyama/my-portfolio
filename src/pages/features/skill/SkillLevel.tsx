@@ -1,7 +1,8 @@
 import React from "react";
 import RadarChartBlock from "./LevelDescription"
 import { Description } from "../../../types";
-import LevelDescription from "./LevelDescription"
+import LevelDescription from "./LevelDescription";
+import "../../../style/common.css";
 
 const SkillLevel: React.FC = () => {
     const frontEndLevels: Description = {
@@ -29,11 +30,16 @@ const SkillLevel: React.FC = () => {
     };
 
     return (
-        <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
-            <LevelDescription title="Front-End-Levels" levels={frontEndLevels} />
-            <LevelDescription title="Back-End-Levels" levels={backEndLevels} />
-            <LevelDescription title="DevOps" levels={devOpsLevels} />
-        </div>
+        <>
+            <div className="sp-hide skill">
+                <LevelDescription title="Front-End-Levels" levels={frontEndLevels} />
+                <LevelDescription title="Back-End-Levels" levels={backEndLevels} />
+                <LevelDescription title="DevOps" levels={devOpsLevels} />
+            </div>
+            <div className="pc-hide skill">
+                <LevelDescription title="Skill-Levels" levels={frontEndLevels} />
+            </div>
+        </>
     );
 };
 
