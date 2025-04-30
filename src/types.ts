@@ -16,5 +16,19 @@ export type WorkItem = {
     title: string;
     image: string;
     description: string;
-    url: string;
+    detail?: string;
+    useSkill?: string[];
+    technologies?: string[];
+    links?: {
+        label: string;
+        url: string;
+    }[];
+}
+
+export type MyItem = {
+    age?: number;
+    link?: {
+        label: string;
+        url: string;
+    }
 }

@@ -105,10 +105,11 @@ nav {
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
+    cursor: pointer;
 }
 
 .work-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-10px) !important;
 }
 
 .work-card img {
@@ -125,6 +126,43 @@ nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 30px 30px 60px 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    /* 高さを画面にフィットさせる */
+    max-height: 90vh;
+    /* はみ出たらスクロール */
+    overflow-y: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #666;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 @media (max-width: 480px) {
@@ -163,5 +201,4 @@ nav {
     .works-grid {
         grid-template-columns: 1fr;
     }
-
 }
