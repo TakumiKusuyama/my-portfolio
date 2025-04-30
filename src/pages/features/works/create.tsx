@@ -8,13 +8,13 @@ import '../../../style/top.css';
 
 const works: WorkItem[] = [
     {
-        title: "My Winter Portfolio",
+        title: "Koo Winter Folio",
         image: "work-myportfolio.jpg",
         description: "ポートフォリオサイト",
         detail: "本Webページです。ReactとTypescriptを使用し、ランディングページに仕上げました。",
         technologies: ["React", "Typescript", "Vite", "Vercel", "Git", "Github"],
         links: [
-            { label: "サイトはこちら", url: "https://my-winter-portfolio.vercel.app/" },
+            { label: "サイトはこちら", url: "https://koo-winter-folio.vercel.app/" },
             { label: "GitHub", url: "https://github.com/TakumiKusuyama/my-portfolio" },
         ],
     },
