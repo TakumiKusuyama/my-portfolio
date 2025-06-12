@@ -34,7 +34,7 @@ const SkillLevel: React.FC = () => {
             <div className="sp-hide skill">
                 <LevelDescription title="Front-End-Levels" levels={frontEndLevels} />
                 <LevelDescription title="Back-End-Levels" levels={backEndLevels} />
-                <LevelDescription title="DevOps" levels={devOpsLevels} />
+                <LevelDescription title="Others" levels={devOpsLevels} />
             </div>
             <div className="pc-hide skill">
                 <LevelDescription title="Skill-Levels" levels={frontEndLevels} />

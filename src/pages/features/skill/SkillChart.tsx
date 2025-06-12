@@ -15,9 +15,9 @@ const frontAndDesignData: SkillData[] = [
 const backEndData: SkillData[] = [
     { subject: "Java", value: 3 },
     { subject: "Seaser2", value: 3 },
-    { subject: "Spring Boot3", value: 3 },
+    { subject: "Spring Boot3", value: 2 },
     { subject: "MySQL", value: 3 },
-    { subject: "PostgreSQL", value: 2 },
+    { subject: "PostgreSQL", value: 1 },
     { subject: "Python", value: 1 },
 ];
 
@@ -26,8 +26,8 @@ const devOpsData: SkillData[] = [
     { subject: "Git/GitHub", value: 3 },
     { subject: "AWS", value: 2 },
     { subject: "Agile Development", value: 2 },
-    { subject: "Docker", value: 2 },
-    { subject: "Jenkins", value: 2 },
+    { subject: "Docker", value: 1 },
+    { subject: "GA4/GTM", value: 2 },
 ];
 
 const SkillChart: React.FC = () => {
